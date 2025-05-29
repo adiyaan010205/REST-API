@@ -35,7 +35,7 @@ A simple RESTful API built with Node.js and Express to manage a collection of bo
 
 ```bash
 git clone https://github.com/adiyaan010205/REST-API.git
-cd book-api
+cd rest-api
 ````
 
 2. **Install dependencies**
