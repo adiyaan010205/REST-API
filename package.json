@@ -1,0 +1,16 @@
+{
+  "name": "t1",
+  "version": "1.0.0",
+  "description": "A modern, animated, and themeable to-do list web app with real-time digital clock, dynamic greetings, and beautiful color palettes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
