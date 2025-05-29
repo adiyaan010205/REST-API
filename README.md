@@ -1,5 +1,4 @@
 
----
 
 ```markdown
 # 📚 Book API
@@ -72,5 +71,4 @@ The server will start at: `http://localhost:3000`
 * Ensure you don’t push `node_modules/` to GitHub.
 * Customize the data structure as needed.
 
-```
 
