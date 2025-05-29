@@ -66,9 +66,39 @@ The server will start at: `http://localhost:3000`
 
 ---
 
-## 📌 Notes
+## 🧪 Sample API Requests (using `curl`)
 
-* Ensure you don’t push `node_modules/` to GitHub.
-* Customize the data structure as needed.
+### ➕ Create a Book
 
+```bash
+curl -X POST http://localhost:3000/books \
+-H "Content-Type: application/json" \
+-d '{"title": "The Alchemist", "author": "Paulo Coelho"}'
+```
+
+### 📖 Get All Books
+
+```bash
+curl http://localhost:3000/books
+```
+
+### 📘 Get a Book by ID
+
+```bash
+curl http://localhost:3000/books/1
+```
+
+### ✏️ Update a Book
+
+```bash
+curl -X PUT http://localhost:3000/books/1 \
+-H "Content-Type: application/json" \
+-d '{"title": "1984", "author": "George Orwell"}'
+```
+
+### ❌ Delete a Book
+
+```bash
+curl -X DELETE http://localhost:3000/books/1
+```
 
